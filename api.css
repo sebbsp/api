@@ -1,0 +1,23 @@
+body {
+    background-color: #3b413c;
+    display: flex;
+    justify-content: center;
+  }
+  
+#profile {
+    margin-top: 30%;
+}  
+
+#pic {
+    border-radius: 25px;
+}
+ 
+.text {
+    color: #7f9c96;
+}
+
+#refresh {
+    justify-content: center;
+}
+
+

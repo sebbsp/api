@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>API Random User</title>
+    <link href="api.css" rel="stylesheet" />
 </head>
 <body>
-    <div>
-        <h1>Random People</h1>
-        <button type="button">Click me!</button> 
+    <div id="root">
+        <div id="profile">
+            <img id="pic" src='' />
+            <h2 id="name" class="text"></h2>
+            <p id="username" class="text"></p>
+            <p id="email" class="text"></p>
+            <button id="refresh">Randomize</button>
+        </div>
     </div>
+    <script src="user.js"></script>
 </body>
 </html>
